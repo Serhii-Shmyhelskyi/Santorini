@@ -251,3 +251,23 @@ body {
     width: 50%;
     padding-right: 55px;
 }
+
+.hotel__title span {
+    margin-left: 120px;
+}
+
+.hotel__inner {
+    display: flex;
+}
+
+.hotel__images {
+    margin-right: 100px;
+}
+
+.hotel__text {
+    margin-bottom: 35px;
+}
+
+.hotel__gallery a {
+    margin-top: 40px;
+}
