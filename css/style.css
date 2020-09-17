@@ -467,6 +467,24 @@ body {
     margin: 0 7px;
 }
 
+@media (max-width:1190px) {
+    .hotel__gallery {
+       display: flex;
+       justify-content: space-around;
+       text-align: center; 
+    }
+    .hotel__gallery a {
+        margin-top: 40px;
+        width: 34%;
+    }
+        .hotel__inner {
+            display: block;
+        }
+        .hotel__images{
+            width: 100%;
+        }     
+}
+
 @media (max-width:1040px) {
     .header__title {
         padding-top: 105px;
