@@ -546,6 +546,10 @@ body {
     .hotel__inner img, .contacts__inner img {
         width: 100%;
     }
+    .footer__inner {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width:840px) {
@@ -627,6 +631,10 @@ body {
     .hotel__title span {
         margin-left: 85px;
     }
+    .footer__text {
+        font-size: 60px;
+        line-height: 80px;
+    }
 }
 
 @media (max-width:460px) {
@@ -645,6 +653,10 @@ body {
     }
     .hotel__title span {
         margin-left: 75px;
+    }
+    .footer__text {
+        font-size: 45px;
+        line-height: 65px;
     }
 }
 
