@@ -482,7 +482,17 @@ body {
     }
     .hotel__images {
         width: 100%;
+        margin-right: 0;
     }     
+    .contacts__date span, .contacts__price span {
+        line-height: 26px;
+        font-size: 22px;
+        margin-left: 185px;
+    }
+    .contacts__date, .contacts__price {
+        font-size: 88px;
+        line-height: 90px;
+    }
 }
 
 @media (max-width:1040px) {
@@ -490,6 +500,26 @@ body {
         padding-top: 105px;
         font-size: 205px;
         line-height: 250px;
+    }
+    .contacts__price {
+        margin-left: 65px;
+    }
+    .contacts__date, .contacts__price {
+        font-size: 80px;
+        line-height: 86px;
+    }
+
+    .contacts__date span, .contacts__price span {
+        line-height: 24px;
+        font-size: 20px;
+        margin-left: 163px;
+    }
+
+    .contacts__form-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width:991px) {
@@ -635,6 +665,9 @@ body {
         font-size: 60px;
         line-height: 80px;
     }
+    .price__title span {
+        margin-left: 90px;
+    }
 }
 
 @media (max-width:460px) {
@@ -657,6 +690,24 @@ body {
     .footer__text {
         font-size: 45px;
         line-height: 65px;
+    }
+    .price__on-title, .price__off-title {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .contacts__date, .contacts__price {
+        font-size: 80px;
+        line-height: 85px;
+    }
+
+    .contacts__date span, .contacts__price span {
+        line-height: 24px;
+        font-size: 20px;
+        margin-left: 160px;
+    } 
+    .price__title span {
+        margin-left: 77px;
     }
 }
 
@@ -700,5 +751,8 @@ body {
     }
     .hotel__title span {
         margin-left: 60px;
+    }
+    .price__title span {
+        margin-left: 65px;
     }
 }
