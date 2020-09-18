@@ -477,12 +477,12 @@ body {
         margin-top: 40px;
         width: 34%;
     }
-        .hotel__inner {
-            display: block;
-        }
-        .hotel__images{
-            width: 100%;
-        }     
+    .hotel__inner {
+        display: block;
+    }
+    .hotel__images {
+        width: 100%;
+    }     
 }
 
 @media (max-width:1040px) {
